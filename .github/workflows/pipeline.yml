@@ -13,6 +13,10 @@ on:
 env:
   node-version: 17
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     name: Setup Node Env & Test
