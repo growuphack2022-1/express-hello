@@ -58,5 +58,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: growuphack-0
+          heroku_app_name: growuphack-01
           heroku_email: growuphack2022+0@gmail.com
