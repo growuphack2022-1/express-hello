@@ -59,4 +59,4 @@ jobs:
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: growuphack-01
-          heroku_email: growuphack2022+0@gmail.com
+          heroku_email: growuphack2022+1@gmail.com
